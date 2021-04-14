@@ -47,9 +47,9 @@ namespace Scrum
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //Form5 ej5 = new Form5();
+            Ejercicio5 ej5 = new Ejercicio5();
 
-            //ej5.Show();
+            ej5.Show();
         }
 
         //private void button6_Click(object sender, EventArgs e)
@@ -73,12 +73,12 @@ namespace Scrum
         //ej8.Show();
         //}
 
-        //private void button9_Click(object sender, EventArgs e)
-        //{
-        //Ejercicio9 ej9 = new Ejercicio9();
+        private void button9_Click(object sender, EventArgs e)
+        {
+        Form9 ej9 = new Form9();
 
-        //ej9.Show();
-        //}
+        ej9.Show();
+        }
 
         //private void button10_Click(object sender, EventArgs e)
         //{
