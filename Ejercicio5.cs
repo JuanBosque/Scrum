@@ -29,6 +29,12 @@ namespace Scrum
             txtResultado.Text = num.ToString();
         }
 
+        private int recuSumArray(char [] numArray, int i)
+        {
+
+            return 0;
+        }
+
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
