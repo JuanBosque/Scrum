@@ -10,38 +10,37 @@ using System.Windows.Forms;
 
 namespace Scrum
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnPow_Click(object sender, EventArgs e)
         {
             try
             {
-                int num = Int32.Parse(inText1.Text);
-                outText.Text = fact(num).ToString();
+                int x = Int32.Parse(inText1.Text);
+                int y = Int32.Parse(inText2.Text);
+                outText.Text = pow(x, y).ToString();
             }
             catch
             {
                 MessageBox.Show("Error en datos de entrada.");
             }
-
         }
-        
-        private int fact(int n)
+        private int pow(int x, int y)
         {
-
-            if (n == 0)
+            if (y == 0)
             {
                 return 1;
             }
             else
             {
-                return n*fact(n-1);
+                return x * pow(x, y - 1);
             }
-        }       
+
+        }
     }
 }
