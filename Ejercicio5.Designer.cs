@@ -33,6 +33,7 @@ namespace Scrum
             this.txtEntrada = new System.Windows.Forms.TextBox();
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnCerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCalculo
@@ -69,11 +70,21 @@ namespace Scrum
             this.label1.TabIndex = 3;
             this.label1.Text = "Resultado";
             // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Location = new System.Drawing.Point(140, 160);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCerrar.TabIndex = 4;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            // 
             // Ejercicio5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 323);
+            this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.txtEntrada);
@@ -91,5 +102,6 @@ namespace Scrum
         private System.Windows.Forms.TextBox txtEntrada;
         private System.Windows.Forms.TextBox txtResultado;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnCerrar;
     }
 }
