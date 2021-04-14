@@ -33,7 +33,6 @@ namespace Scrum
             this.btnFact = new System.Windows.Forms.Button();
             this.inText1 = new System.Windows.Forms.TextBox();
             this.outText = new System.Windows.Forms.TextBox();
-            this.inText2 = new System.Windows.Forms.TextBox();
             this.btnPow = new System.Windows.Forms.Button();
             this.btnDiv = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -71,32 +70,19 @@ namespace Scrum
             this.outText.Size = new System.Drawing.Size(100, 22);
             this.outText.TabIndex = 3;
             // 
-            // inText2
-            // 
-            this.inText2.Location = new System.Drawing.Point(143, 120);
-            this.inText2.Name = "inText2";
-            this.inText2.Size = new System.Drawing.Size(100, 22);
-            this.inText2.TabIndex = 4;
-            // 
             // btnPow
             // 
-            this.btnPow.Location = new System.Drawing.Point(48, 121);
+            this.btnPow.Location = new System.Drawing.Point(0, 0);
             this.btnPow.Name = "btnPow";
             this.btnPow.Size = new System.Drawing.Size(75, 23);
-            this.btnPow.TabIndex = 5;
-            this.btnPow.Text = "Pow";
-            this.btnPow.UseVisualStyleBackColor = true;
-            this.btnPow.Click += new System.EventHandler(this.btnPow_Click);
+            this.btnPow.TabIndex = 1;
             // 
             // btnDiv
             // 
-            this.btnDiv.Location = new System.Drawing.Point(48, 151);
+            this.btnDiv.Location = new System.Drawing.Point(0, 0);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(75, 23);
-            this.btnDiv.TabIndex = 6;
-            this.btnDiv.Text = "Div";
-            this.btnDiv.UseVisualStyleBackColor = true;
-            this.btnDiv.Click += new System.EventHandler(this.btnDiv_Click);
+            this.btnDiv.TabIndex = 0;
             // 
             // Form1
             // 
@@ -105,7 +91,6 @@ namespace Scrum
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnDiv);
             this.Controls.Add(this.btnPow);
-            this.Controls.Add(this.inText2);
             this.Controls.Add(this.outText);
             this.Controls.Add(this.inText1);
             this.Controls.Add(this.btnFact);
@@ -124,7 +109,6 @@ namespace Scrum
         private System.Windows.Forms.Button btnFact;
         private System.Windows.Forms.TextBox inText1;
         private System.Windows.Forms.TextBox outText;
-        private System.Windows.Forms.TextBox inText2;
         private System.Windows.Forms.Button btnPow;
         private System.Windows.Forms.Button btnDiv;
     }
