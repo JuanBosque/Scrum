@@ -19,21 +19,43 @@ namespace Scrum
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int num = Int32.Parse(inText1.Text);
-            outText.Text = fact(num).ToString();
+            try
+            {
+                int num = Int32.Parse(inText1.Text);
+                outText.Text = fact(num).ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Error en datos de entrada.");
+            }
+
         }
         private void btnPow_Click(object sender, EventArgs e)
         {
-            int x = Int32.Parse(inText1.Text);
-            int y = Int32.Parse(inText2.Text);
-            outText.Text = pow(x, y).ToString();
+            try
+            {
+                int x = Int32.Parse(inText1.Text);
+                int y = Int32.Parse(inText2.Text);
+                outText.Text = pow(x, y).ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Error en datos de entrada.");
+            }
         }
 
         private void btnDiv_Click(object sender, EventArgs e)
         {
-            int x = Int32.Parse(inText1.Text);
-            int y = Int32.Parse(inText2.Text);
-            outText.Text = div(x, y).ToString();
+            try
+            {
+                int x = Int32.Parse(inText1.Text);
+                int y = Int32.Parse(inText2.Text);
+                outText.Text = div(x, y).ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Error en datos de entrada.");
+            }
         }
         private int fact(int n)
         {
