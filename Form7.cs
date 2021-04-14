@@ -19,6 +19,7 @@ namespace Scrum
 
         private void btnMultilicar_Click(object sender, EventArgs e)
         {
+            listaVectores.Items.Clear();
             int numMulti = 0;
             var rand = new Random();
             int[] miArray = new int[10];
