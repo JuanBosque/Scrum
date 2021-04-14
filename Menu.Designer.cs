@@ -95,6 +95,7 @@ namespace Scrum
             this.button5.TabIndex = 4;
             this.button5.Text = "Ejercicio 5";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button7
             // 
@@ -137,6 +138,7 @@ namespace Scrum
             this.button9.TabIndex = 9;
             this.button9.Text = "Ejercicio 9";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
