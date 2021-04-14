@@ -33,7 +33,6 @@ namespace Scrum
             for (int i = 1; i < miArray.Length; i++)
             {
                 numMulti = numMulti * miArray[i];
-                listaVectores.Items.Add(miArray[i]);
             }
             txtSalida.Text = numMulti.ToString();
         }
