@@ -28,5 +28,10 @@ namespace Scrum
             }
             txtResultado.Text = num.ToString();
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
