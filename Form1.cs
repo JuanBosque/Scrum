@@ -16,5 +16,22 @@ namespace Scrum
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num = Int32.Parse(inText1.Text);
+            outText.Text = fact(num).ToString();
+        }
+        private int fact(int n)
+        {
+            if (n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return n*fact(n-1);
+            }
+        }
     }
 }
