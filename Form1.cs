@@ -28,6 +28,13 @@ namespace Scrum
             int y = Int32.Parse(inText2.Text);
             outText.Text = pow(x, y).ToString();
         }
+
+        private void btnDiv_Click(object sender, EventArgs e)
+        {
+            int x = Int32.Parse(inText1.Text);
+            int y = Int32.Parse(inText2.Text);
+            outText.Text = div(x, y).ToString();
+        }
         private int fact(int n)
         {
 
@@ -52,6 +59,18 @@ namespace Scrum
                 return x * pow(x, y - 1);
             }
             
+        }
+
+        private int div(int x, int y)
+        {
+            if(y > x)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1 + div(x - y, y);
+            }
         }
 
         
