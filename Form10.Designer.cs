@@ -64,7 +64,7 @@ namespace Scrum
             // 
             // txtSalida
             // 
-            this.txtSalida.Location = new System.Drawing.Point(344, 41);
+            this.txtSalida.Location = new System.Drawing.Point(304, 16);
             this.txtSalida.Name = "txtSalida";
             this.txtSalida.Size = new System.Drawing.Size(148, 22);
             this.txtSalida.TabIndex = 3;
