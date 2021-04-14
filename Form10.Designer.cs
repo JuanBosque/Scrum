@@ -80,6 +80,7 @@ namespace Scrum
             this.Controls.Add(this.btnVector);
             this.Name = "Form10";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form10_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

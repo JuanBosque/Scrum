@@ -41,5 +41,10 @@ namespace Scrum
             }
             txtSalida.Text = numMax.ToString();
         }
+
+        private void Form10_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

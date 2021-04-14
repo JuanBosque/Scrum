@@ -77,42 +77,44 @@ namespace Scrum
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button4.Location = new System.Drawing.Point(660, 37);
+            this.button4.Location = new System.Drawing.Point(502, 37);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(128, 136);
             this.button4.TabIndex = 3;
-            this.button4.Text = "Ejercicio 5";
+            this.button4.Text = "Ejercicio 4";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button5.Location = new System.Drawing.Point(502, 37);
+            this.button5.Location = new System.Drawing.Point(660, 37);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(128, 136);
             this.button5.TabIndex = 4;
-            this.button5.Text = "Ejercicio 4";
+            this.button5.Text = "Ejercicio 5";
             this.button5.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
             this.button7.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button7.Location = new System.Drawing.Point(12, 302);
+            this.button7.Location = new System.Drawing.Point(177, 302);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(128, 136);
             this.button7.TabIndex = 6;
-            this.button7.Text = "Ejercicio 6";
+            this.button7.Text = "Ejercicio 7";
             this.button7.UseVisualStyleBackColor = false;
+            
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button6.Location = new System.Drawing.Point(177, 302);
+            this.button6.Location = new System.Drawing.Point(12, 302);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(128, 136);
             this.button6.TabIndex = 7;
-            this.button6.Text = "Ejercicio 7";
+            this.button6.Text = "Ejercicio 6";
             this.button6.UseVisualStyleBackColor = false;
+            
             // 
             // button8
             // 
