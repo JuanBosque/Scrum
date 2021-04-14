@@ -36,6 +36,7 @@ namespace Scrum
             if (charArray.Length == 0)
             {
                 return "";
+
             }
             else if(i == charArray.Length-1)
             {
