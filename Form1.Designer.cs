@@ -30,10 +30,11 @@ namespace Scrum
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnFact = new System.Windows.Forms.Button();
             this.inText1 = new System.Windows.Forms.TextBox();
             this.outText = new System.Windows.Forms.TextBox();
             this.inText2 = new System.Windows.Forms.TextBox();
+            this.btnPow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -45,15 +46,15 @@ namespace Scrum
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // button1
+            // btnFact
             // 
-            this.button1.Location = new System.Drawing.Point(48, 92);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnFact.Location = new System.Drawing.Point(48, 92);
+            this.btnFact.Name = "btnFact";
+            this.btnFact.Size = new System.Drawing.Size(75, 23);
+            this.btnFact.TabIndex = 1;
+            this.btnFact.Text = "Fact";
+            this.btnFact.UseVisualStyleBackColor = true;
+            this.btnFact.Click += new System.EventHandler(this.button1_Click);
             // 
             // inText1
             // 
@@ -76,15 +77,26 @@ namespace Scrum
             this.inText2.Size = new System.Drawing.Size(100, 22);
             this.inText2.TabIndex = 4;
             // 
+            // btnPow
+            // 
+            this.btnPow.Location = new System.Drawing.Point(48, 121);
+            this.btnPow.Name = "btnPow";
+            this.btnPow.Size = new System.Drawing.Size(75, 23);
+            this.btnPow.TabIndex = 5;
+            this.btnPow.Text = "Pow";
+            this.btnPow.UseVisualStyleBackColor = true;
+            this.btnPow.Click += new System.EventHandler(this.btnPow_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnPow);
             this.Controls.Add(this.inText2);
             this.Controls.Add(this.outText);
             this.Controls.Add(this.inText1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnFact);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -97,10 +109,11 @@ namespace Scrum
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFact;
         private System.Windows.Forms.TextBox inText1;
         private System.Windows.Forms.TextBox outText;
         private System.Windows.Forms.TextBox inText2;
+        private System.Windows.Forms.Button btnPow;
     }
 }
 

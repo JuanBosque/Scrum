@@ -22,6 +22,12 @@ namespace Scrum
             int num = Int32.Parse(inText1.Text);
             outText.Text = fact(num).ToString();
         }
+        private void btnPow_Click(object sender, EventArgs e)
+        {
+            int x = Int32.Parse(inText1.Text);
+            int y = Int32.Parse(inText2.Text);
+            outText.Text = pow(x, y).ToString();
+        }
         private int fact(int n)
         {
 
@@ -34,5 +40,20 @@ namespace Scrum
                 return n*fact(n-1);
             }
         }
+
+        private int pow(int x, int y)
+        {
+            if(y == 0)
+            {
+                return 1;
+            }
+            else
+            {
+                return x * pow(x, y - 1);
+            }
+            
+        }
+
+        
     }
 }

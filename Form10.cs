@@ -19,25 +19,27 @@ namespace Scrum
 
         private void btnVector_Click(object sender, EventArgs e)
         {
+            listaVectores.Items.Clear();
             int numMax;
             var rand = new Random();
             int[] miArray = new int[10];
 
-            for(int i=0; i <= miArray.Length; i++)
+            for(int i=0; i < miArray.Length; i++)
             {
-              miArray[i] = rand.Next(0, 11);
+                int numAle = rand.Next(0, 51);
+                miArray[i] = numAle;
                 listaVectores.Items.Add(miArray[i]);
             }
             numMax = miArray[0];
-            for (int i = 0; i <= miArray.Length; i++)
+            
+            for (int i = 0; i < miArray.Length; i++)
             {
-                if(numMax <= miArray[i])
+                if (numMax < miArray[i])
                 {
                     numMax = miArray[i];
-                } 
+                }
             }
             txtSalida.Text = numMax.ToString();
-
         }
     }
 }
